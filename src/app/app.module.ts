@@ -12,6 +12,8 @@ import * as Sample from 'angular4-gantt';
 import { GanttModule } from './components/gantt/gantt.module';
 import { TableComponent } from './components/table/table.component';
 import { CalendarioComponent } from './components/calendario/calendario.component';
+import { GanttDhtmlxModule } from './components/gantt-dhtmlx/gantt-dhtmlx.module';
+
 
 @NgModule({
   declarations: [
@@ -22,12 +24,13 @@ import { CalendarioComponent } from './components/calendario/calendario.componen
     HomeComponent,
     GantComponent,
     TableComponent,
-    CalendarioComponent
+    CalendarioComponent,
   ],
   imports: [
     BrowserModule,
     routing,
-    GanttModule
+    GanttModule,
+    GanttDhtmlxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

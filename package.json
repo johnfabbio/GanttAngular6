@@ -20,12 +20,10 @@
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
-    "@types/dhtmlxgantt": "^4.0.34",
     "angular-in-memory-web-api": "^0.6.1",
     "angular4-gantt": "^0.1.1",
     "core-js": "^2.5.4",
     "daypilot-pro-angular": "https://npm.daypilot.org/daypilot-pro-angular/trial/2018.3.3391.tar.gz",
-    "dhtmlx-gantt": "^5.2.0",
     "rxjs": "^6.0.0",
     "zone.js": "~0.8.26"
   },

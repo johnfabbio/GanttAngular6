@@ -5,6 +5,7 @@ import { HomeComponent } from './src/home/home.component';
 import { GantComponent } from './src/gant/gant.component';
 import { TableComponent } from './components/table/table.component';
 import { CalendarioComponent } from './components/calendario/calendario.component';
+import { GanttDhtmlxComponent } from './components/gantt-dhtmlx/gantt-dhtmlx/gantt-dhtmlx.component';
 
 
 export const routes: Routes = [
@@ -22,7 +23,7 @@ export const routes: Routes = [
     {
         path: 'gantt',
         data: {pageTitle: 'Gantt'},
-        component: GantComponent,
+        component: GanttDhtmlxComponent,
     },
     {
         path: 'table',
