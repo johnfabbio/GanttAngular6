@@ -13,6 +13,7 @@ import { GanttModule } from './components/gantt/gantt.module';
 import { TableComponent } from './components/table/table.component';
 import { CalendarioComponent } from './components/calendario/calendario.component';
 import { GanttDhtmlxModule } from './components/gantt-dhtmlx/gantt-dhtmlx.module';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { GanttDhtmlxModule } from './components/gantt-dhtmlx/gantt-dhtmlx.module
   imports: [
     BrowserModule,
     routing,
+    FormsModule,
     GanttModule,
     GanttDhtmlxModule
   ],
